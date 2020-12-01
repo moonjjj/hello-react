@@ -4,9 +4,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
+ReactDOM.render( //app.js에서 불러온 파일을 html의 형태로 집어넣습니다! id가 root인 것에!
   <React.StrictMode>
-    <App />
+    <App /> 
   </React.StrictMode>,
   document.getElementById('root')
 );
